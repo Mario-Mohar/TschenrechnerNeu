@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura Ramen - Restaurantwebseite</title>
+    <style>
+            .navbar {
+                font-family: raleway, bold;
+                position: absolute;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                left: 50;
+                top: 0;
+                right: 50;
+                height: 100px;
+            }
+            .menu {
+                display: flex;
+                justify-content: space-between;
+            }
+            .content1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image: url(img/bgr1.jpg);
+                background-position: bottom;
+                height: 100vh;
+                flex-direction: column;
+            }
+            .ordertitel {
+                display: flex;
+                justify-content: center;
+            }
+            .order {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .noodle {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                font-family: economica, bold;
+            }
+            .broth {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                font-family: economica, bold;
+            }
+            .toppings {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                font-family: economica, bold;
+            }
+            .menutitel {
+                display: flex;
+                justify-content: center;
+                font-family: economica, bold;
+            }
+            .menue {
+                background-image: url(img/background.jpg);
+                background-position: center;
+            }
+            .tonkasu {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+</head>
+<body style="margin: 0;">
+    <div class="navbar">
+            <div class="logo">
+                <img src="img/saku.png" alt="">
+            </div>
+            <div class="menu">
+            <a href="index.html">START</a>
+            <a href="locations.html">LOCATIONS</a>
+                <div>
+                    <img src="img/phone.png" height="15px" width="15px" alt="">
+                    <span>0900 000 000</span>
+                </div>
+            </div>
+        </div>
+    <div class="content1">
+        <h1 style="font-family: raleway, bold; color: white;">Sakura Rahmen</h1>
+        <span style="font-family: raleway; color: white;">Best Rahmen in Town</span>
+    </div>
+    <div>
+        <div class="ordertitel">
+            <h2 style="font-family: economica, bold;">HOW TO ORDER</h2>
+        </div>
+        <div class="order">
+            <div class="noodle">
+                <img src="img/bowl_icon.jpg" alt="">
+                <span>Pick</span>
+                <span>Your Noodle</span>
+            </div>
+            <div class="broth">
+                <img src="img/broth_icon.png" alt="">
+                <span>Pick</span>
+                <span>Your Broth</span>
+            </div>
+            <div class="toppings">
+                <img src="img/eggs_icon.jpg" alt="">
+                <span>Add Your</span>
+                <span>Toppings</span>
+            </div>
+        </div>
+    </div>
+    <div class="menue">
+        <div class="menutitel">
+            <h2>OUR MENU</h2>
+        </div>
+        <div class="tonkasu">
+            <img src="img/r1.png" width="400" height="400" alt="">
+            <table class="table">
+                <tbody>
+                    <tr aria-rowspan="2">Tonkasu Ramen</tr>
+                    <tr>Chicken 11,95€</tr>
+                    <tr>Beef 12,95€</tr>
+                    <tr>Shrimp 13,95€</tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="miso"></div>
+        <div class="shio"></div>
+    </div>
+</body>
+</html>
